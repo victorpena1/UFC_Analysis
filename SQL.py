@@ -1,0 +1,17 @@
+CREATE TABLE `Fighter_info` (
+	`fighter_ID`	INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`first_name`	TEXT,
+	`last_name`	TEXT,
+	`height`	NUMERIC,
+	`weight`	NUMERIC,
+	`reach`	NUMERIC,
+	`stance`	TEXT,
+	`DOB`	TEXT,
+	`SLpM`	NUMERIC,
+	`Str. Acc`	INTEGER,
+	`SApM`	NUMERIC,
+	`Str. Def`	INTEGER,
+	`TD Avg`	NUMERIC,
+	`TD Acc`	INTEGER,
+	`TD Def`	INTEGER,
+	`Sub. Avg`	NUMERIC
