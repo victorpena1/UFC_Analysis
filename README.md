@@ -26,10 +26,10 @@ As mentioned before, two collections have been created including multiple fields
 # Relational Database development
 4 tables will be included in this database:
   1. Events info
-    * Event Name (name given to the event by the UFC)
-    * Date (Date when the event happened)
-    * Location (Location where the event happened)
-    * Attendance (Number of attendance for each event)
+    . Event Name (name given to the event by the UFC)
+    . Date (Date when the event happened)
+    . Location (Location where the event happened)
+    . Attendance (Number of attendance for each event)
   2. Events fights
   3. Fighters info
   4. Figters Fights 
