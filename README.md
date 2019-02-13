@@ -14,8 +14,8 @@ The main purpose for this project is to understand which combination of martial 
 
 # Data Scrapping
 Most of the data is being scraped fro mthe http://ufcstats.com website into 2 main collections:
-  1. events
-  2. fighters
+  1. Events
+  2. Fighters
 This is data dumped into MongoDB.
 
 # Data dump into MongoDB
@@ -27,7 +27,7 @@ As mentioned before, two collections have been created including multiple fields
 4 tables will be included in this database:
   1. Events info
   2. Events fights
-  3. fighters info
+  3. Fighters info
   4. Figters Fights 
 # EDA
 This is going to be mainly statistical understanding of the overall data set. 
