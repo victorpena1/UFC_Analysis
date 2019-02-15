@@ -136,10 +136,13 @@ Take the top 10% reach to height ratio fighters and compare them with the rest.
 #### <span style="color:Blue">Alt hypothesis 2: Fighters with Switch stance win more fights.</span>
 Take all Switch fighters and compare records with the none switch
 
+`Test Statistic:` Perform a one tail ttest with a significance level of 0.05.
+
 <img src="data/switchdist.png"
     style="float: left; margin-right: 10px;" />
-    
-`Test Statistic:` Perform a one tail ttest with a significance level of 0.05.
+ 
+ - The t-test provided a p-value of `0.0067340` allowing us to reget the null hypothesis.
+
 
 
 # Next Steps
