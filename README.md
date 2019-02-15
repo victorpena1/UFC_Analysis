@@ -79,24 +79,32 @@ boxplot.png
 <img src="data/boxplot.png"
     style="float: left; margin-right: 10px;" />
     
-<img src="data/eventcountry.png; data/afterUS.png"
+<img src="data/eventcountry.png"
     style="float: left; margin-right: 10px;" />
 
 <img src="data/afterUS.png"
     style="float: left; margin-right: 10px;" />
     
-<img src="data/boxplot.png"
+<img src="data/weightclass.png"
+    style="float: left; margin-right: 10px;" />
+    
+<img src="data/method.png"
     style="float: left; margin-right: 10px;" />
 
+<img src="data/round.png"
+    style="float: left; margin-right: 10px;" />
+    
+<img src="data/reachheight.png"
+    style="float: left; margin-right: 10px;" />
 
 # Hypothesis Testing
-#### <span style="color:Blue">Null hypothesis 1: Fighters with higher reach to height ratio (top 10%) DO NOT win more fights.</span>
-#### <span style="color:Blue">Alt hypothesis 1: Fighters with higher reach to height ratio (top 10%) win more fights.</span>
-Take the top 10% reach to height ratio fighters and compare them with the rest
-`Test Statistic:` Binomial probability based on p=0.5 
+#### <span style="color:Blue">Ho = the distance between distribution of 90% and the 10% is equal or less than the zero.</span>
+#### <span style="color:Blue">H1 = the distance between distribution of 90% and the 10% is more than zero..</span>
+Take the top 10% reach to height ratio fighters and compare them with the rest 
 
-Ho = the distance between distribution of 90% and the 10% is equal or less than the zero
-H1 = the distance between distribution of 90% and the 10% is more than zero.
+<img src="data/windensity.png"
+    style="float: left; margin-right: 10px;" />
+
 
 
 
