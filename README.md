@@ -9,6 +9,14 @@
 The main purpose for this project is to understand which combination of martial arts are dominating wins in the UFC.
 # Workflow
 1. Scrape data from the http://ufcstats.com website.
+<img src="data/ufcweb.png"
+    style="float: left; margin-right: 10px;" />
+    
+
+<img src="data/workflow.png"
+    style="float: left; margin-right: 10px;" />
+
+
 2. Scrape data from wikipedia. (if time)
 3. Data dump into MongoDB.
 4. Curate dataset in MongoDB/Pandas/Postgres.
