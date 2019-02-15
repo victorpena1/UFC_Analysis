@@ -75,7 +75,9 @@ As mentioned before, two collections have been created including multiple fields
     
 # EDA
 This is going to be mainly statistical understanding of the overall data set. 
-
+boxplot.png
+<img src="data/boxplot.png"
+    style="float: left; margin-right: 10px;" />
 
 
 # Hypothesis Testing
