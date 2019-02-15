@@ -136,7 +136,7 @@ Take the top 10% reach to height ratio fighters and compare them with the rest.
 
 - Integrate wikipedia data with martial art background.
 - Create a relational Database.
-- Test the following list of hypothesis.
+- Test the following list of hypothesis:
 
 #### <span style="color:Blue">Null hypothesis 2: Fighters with Switch stance DO NOT win more fights. </span>
 #### <span style="color:Blue">Alt hypothesis 2: Fighters with Switch stance win more fights.</span>
