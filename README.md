@@ -124,12 +124,22 @@ As mentioned before, two collections have been created including multiple fields
 #### <span style="color:Blue">H1 = Better winning rate for fighters with higher Reach to Height ratio..</span>
 Take the top 10% reach to height ratio fighters and compare them with the rest.
 
-`Test Statistic:` Perform a one tail ttest with a significance level of 0.05
+`Test Statistic:` Perform a one tail ttest with a significance level of 0.05.
 
 <img src="data/windensity.png"
     style="float: left; margin-right: 10px;" />
 
 - The t-test provided a p-value of `0.04879` allowing us to reget the null hypothesis.
+
+
+#### <span style="color:Blue">Null hypothesis 2: Fighters with Switch stance DO NOT win more fights. </span>
+#### <span style="color:Blue">Alt hypothesis 2: Fighters with Switch stance win more fights.</span>
+Take all Switch fighters and compare records with the none switch
+
+<img src="data/switchdist.png"
+    style="float: left; margin-right: 10px;" />
+    
+`Test Statistic:` Perform a one tail ttest with a significance level of 0.05.
 
 
 # Next Steps
@@ -138,9 +148,7 @@ Take the top 10% reach to height ratio fighters and compare them with the rest.
 - Create a relational Database.
 - Test the following list of hypothesis:
 
-#### <span style="color:Blue">Null hypothesis 2: Fighters with Switch stance DO NOT win more fights. </span>
-#### <span style="color:Blue">Alt hypothesis 2: Fighters with Switch stance win more fights.</span>
-Take all Switch fighters and compare records with the none switch
+
 #### <span style="color:Blue">Null hypothesis 3: Fighters with high takedown accuracy (top 10%) DO NOT win more fights than fighters with high strike accuracy (top 10%).</span>
 #### <span style="color:Blue">Alt hypothesis 3: Fighters with high takedown accuracy (top 10%) win more fights than fighters with high strike accuracy (top 10%). </span>
 Take the top 10% takedown accuracy fighters and compare them with the top 10%  strike accuracy fighters
