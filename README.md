@@ -76,13 +76,16 @@ As mentioned before, two collections have been created including multiple fields
 # EDA
 This is going to be mainly statistical understanding of the overall data set. 
 
+
+
 # Hypothesis Testing
 #### <span style="color:Blue">Null hypothesis 1: Fighters with higher reach to height ratio (top 10%) DO NOT win more fights.</span>
 #### <span style="color:Blue">Alt hypothesis 1: Fighters with higher reach to height ratio (top 10%) win more fights.</span>
 Take the top 10% reach to height ratio fighters and compare them with the rest
 `Test Statistic:` Binomial probability based on p=0.5 
 
-
+Ho = the distance between distribution of 90% and the 10% is equal or less than the zero
+H1 = the distance between distribution of 90% and the 10% is more than zero.
 
 
 
