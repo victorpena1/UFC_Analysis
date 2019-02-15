@@ -38,4 +38,17 @@ As mentioned before, two collections have been created including multiple fields
 This is going to be mainly statistical understanding of the overall data set. 
 
 # Hypothesis Development
-1) 
+#### <span style="color:red">Null hypothesis 1: Fighters with higher reach to height ratio win more fights.</span>
+#### <span style="color:red">Alt hypothesis 1: Fighters with higher reach to height ratio DO NOT win more fights.</span>
+Take the top 10% reach to height ratio fighters and compare them with the rest
+#### <span style="color:red">Null hypothesis 2: Fighters with Switch stance win more fights.</span>
+#### <span style="color:red">Alt hypothesis 2: Fighters with Switch stance DO NOT win more fights.</span>
+Take all Switch fighters and compare records with the none switch
+#### <span style="color:red">Null hypothesis 3: Fighters with high takedown accuracy win more fights than fighters with high strike accuracy.</span>
+#### <span style="color:red">Alt hypothesis 3: Fighters with high takedown accuracy DO NOT win more fights than fighters with high strike accuracy.</span>
+Take the top 10% takedown accuracy fighters and compare them with the top 10%  strike accuracy fighters
+#### <span style="color:red">Null hypothesis 4: Fighters 4 years (plus) younger than opponents win more fights. </span>
+#### <span style="color:red">Alt hypothesis 4: Fighters 4 years (plus) younger than opponents DO NOT win more fights. </span>
+Compare all the fightes with 4+ age difference.
+#### <span style="color:red">Null hypothesis 5: Fighters fight, in avg., 4 fights per year.</span>
+#### <span style="color:red">Alt hypothesis 5: Fighters DO NOT fight, in avg., 4 fights per year.</span>
