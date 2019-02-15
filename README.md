@@ -93,23 +93,29 @@ As mentioned before, two collections have been created including multiple fields
 <img src="data/boxplot.png"
     style="float: left; margin-right: 10px;" />
     
-### The Ronda Rousey fight in late 2015 holds the record attendance for the UFC. 
+### The Ronda Rousey fight in late 2015 holds the record attendance for the UFC. (56214 people)
     
+- No surprises here. The US holds the record for more events.
 <img src="data/eventcountry.png"
     style="float: left; margin-right: 10px;" />
 
+- Top 5 countries for more events
 <img src="data/afterUS.png"
     style="float: left; margin-right: 10px;" />
-    
+
+- Fight class with more fights in the UFC. Are there more lightweight figters in the roster???
 <img src="data/weightclass.png"
     style="float: left; margin-right: 10px;" />
-    
+
+- KO/TKO is the most dominante winning method.
 <img src="data/method.png"
     style="float: left; margin-right: 10px;" />
 
+- For the KO/TKO method, fights are typically defined in the first round.
 <img src="data/round.png"
     style="float: left; margin-right: 10px;" />
-    
+
+- Distribution of reach and height ratio.    
 <img src="data/reachheight.png"
     style="float: left; margin-right: 10px;" />
 
