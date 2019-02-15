@@ -2,6 +2,9 @@
 
 
 
+<img src="data/ufc.png"
+    style="float: left; margin-right: 10px;" />
+
 # High level overview of the project
 The main purpose for this project is to understand which combination of martial arts are dominating wins in the UFC.
 # Workflow
