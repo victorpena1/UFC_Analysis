@@ -1,4 +1,7 @@
 
+
+
+
 # High level overview of the project
 The main purpose for this project is to understand which combination of martial arts are dominating wins in the UFC.
 # Workflow
@@ -32,23 +35,59 @@ As mentioned before, two collections have been created including multiple fields
     - Location (Location where the event happened)
     - Attendance (Number of attendance for each event)
   2. Events fights
+  
+    - Event Name (name given to the event by the UFC)
+    - Winner (Name of the winner fighter)
+    - Loser (Name of the loser fighter)
+    - Weight Class (Weight class for the actual fight)
   3. Fighters info
+  
+    - Name (name given to the event by the UFC)
+    - Nickname (Fighter's nickname)
+    - Record (Wins/Loses/Draws record)
+    - Height (Fighter's height)
+    - Weight (Fighter's weight for the most recent fight)
+    - Reach (Fighter's arm reach)
+    - Stance (Fighter's stance)
+    - DOB (Fighter's date of birth)
+    - SLpM (Significant Strikes Landed per Minute)
+    - Str_Acc (Significant Striking Accuracy)
+    - SApM (Significant Strikes Absorbed per Minute)
+    - Str_Def (Significant Strike Defence (the % of opponents strikes that did not land))
+    - TD_Avg (Average Takedowns Landed per 15 minutes)
+    - TD_Acc (Takedown Accuracy)
+    - TD_Def (Takedown Defense (the % of opponents TD attempts that did not land))
+    - Sub_Avg (Average Submissions Attempted per 15 minutes)
   4. Figters Fights 
+  
+    - f1 (Main fighter name)
+    - f2  (Opponent name)
+    - Event (Event name)
+    - Date (Date of the fight)
+    - f1.result (Main fighter result)
+    - f1.str (Main fighter fight strikes)
+    - f2.str (Opponent fight strikes)
+    - f1.td  (Main fighter fight takedowns)
+    - f2.td (Opponent fight takedowns)
+    - f1.sub (Main fighter fight submission attempts)
+    - f2.sub (Opponent fight submission attempts)
+    - f1.pass (Main fighter fight passes)
+    
 # EDA
 This is going to be mainly statistical understanding of the overall data set. 
 
 # Hypothesis Development
-#### <span style="color:red">Null hypothesis 1: Fighters with higher reach to height ratio win more fights.</span>
-#### <span style="color:red">Alt hypothesis 1: Fighters with higher reach to height ratio DO NOT win more fights.</span>
+#### <span style="color:red">Null hypothesis 1: Fighters with higher reach to height ratio DO NOT win more fights.</span>
+#### <span style="color:red">Alt hypothesis 1: Fighters with higher reach to height ratio win more fights.</span>
 Take the top 10% reach to height ratio fighters and compare them with the rest
-#### <span style="color:red">Null hypothesis 2: Fighters with Switch stance win more fights.</span>
-#### <span style="color:red">Alt hypothesis 2: Fighters with Switch stance DO NOT win more fights.</span>
+#### <span style="color:red">Null hypothesis 2: Fighters with Switch stance DO NOT win more fights. </span>
+#### <span style="color:red">Alt hypothesis 2: Fighters with Switch stance win more fights.</span>
 Take all Switch fighters and compare records with the none switch
-#### <span style="color:red">Null hypothesis 3: Fighters with high takedown accuracy win more fights than fighters with high strike accuracy.</span>
-#### <span style="color:red">Alt hypothesis 3: Fighters with high takedown accuracy DO NOT win more fights than fighters with high strike accuracy.</span>
+#### <span style="color:red">Null hypothesis 3: Fighters with high takedown accuracy DO NOT win more fights than fighters with high strike accuracy.</span>
+#### <span style="color:red">Alt hypothesis 3: Fighters with high takedown accuracy win more fights than fighters with high strike accuracy. </span>
 Take the top 10% takedown accuracy fighters and compare them with the top 10%  strike accuracy fighters
-#### <span style="color:red">Null hypothesis 4: Fighters 4 years (plus) younger than opponents win more fights. </span>
-#### <span style="color:red">Alt hypothesis 4: Fighters 4 years (plus) younger than opponents DO NOT win more fights. </span>
+#### <span style="color:red">Null hypothesis 4: Fighters 4 years (plus) younger than opponents DO NOT win more fights. </span>
+#### <span style="color:red">Alt hypothesis 4: Fighters 4 years (plus) younger than opponents win more fights. </span>
 Compare all the fightes with 4+ age difference.
-#### <span style="color:red">Null hypothesis 5: Fighters fight, in avg., 4 fights per year.</span>
-#### <span style="color:red">Alt hypothesis 5: Fighters DO NOT fight, in avg., 4 fights per year.</span>
+#### <span style="color:red">Null hypothesis 5: Fighters DO NOT fight, in avg., 4 fights per year.</span>
+#### <span style="color:red">Alt hypothesis 5: Fighters fight, in avg., 4 fights per year.</span>
