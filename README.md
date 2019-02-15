@@ -132,7 +132,7 @@ Take the top 10% reach to height ratio fighters and compare them with the rest.
 - The t-test provided a p-value of `0.04879` allowing us to reget the null hypothesis.
 
 
-### Next Steps
+# Next Steps
 
 - Integrate wikipedia data with martial art background.
 - Create a relational Database.
