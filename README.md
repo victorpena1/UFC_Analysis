@@ -85,10 +85,15 @@ As mentioned before, two collections have been created including multiple fields
     - f1.pass (Main fighter fight passes)
     
 # EDA
-This is going to be mainly statistical understanding of the overall data set. 
-boxplot.png
+- The UFC has hosted over 450 events in the last 30 years.
+- Almost 2000 fighters have participated in the UFC.
+
+- Here is the evolution of attendance in the last 30 years.
+
 <img src="data/boxplot.png"
     style="float: left; margin-right: 10px;" />
+    
+### The Ronda Rousey fight in late 2015 holds the record attendance for the UFC. 
     
 <img src="data/eventcountry.png"
     style="float: left; margin-right: 10px;" />
