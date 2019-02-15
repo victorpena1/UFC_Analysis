@@ -120,8 +120,8 @@ As mentioned before, two collections have been created including multiple fields
     style="float: left; margin-right: 10px;" />
 
 # Hypothesis Testing
-#### <span style="color:Blue">Ho = the distance between distribution of 90% and the 10% is equal or less than the zero.</span>
-#### <span style="color:Blue">H1 = the distance between distribution of 90% and the 10% is more than zero..</span>
+#### <span style="color:Blue">Ho = No winning rate change between fighters with different Reach to Height ratio.</span>
+#### <span style="color:Blue">H1 = Better winning rate for fighters with higher Reach to Height ratio..</span>
 Take the top 10% reach to height ratio fighters and compare them with the rest.
 
 `Test Statistic:` Perform a one tail ttest with a significance level of 0.05
@@ -129,10 +129,14 @@ Take the top 10% reach to height ratio fighters and compare them with the rest.
 <img src="data/windensity.png"
     style="float: left; margin-right: 10px;" />
 
+- The t-test provided a p-value of `0.04879` allowing us to reget the null hypothesis.
 
 
+### Next Steps
 
-
+- Integrate wikipedia data with martial art background.
+- Create a relational Database.
+- Test the following list of hypothesis.
 
 #### <span style="color:Blue">Null hypothesis 2: Fighters with Switch stance DO NOT win more fights. </span>
 #### <span style="color:Blue">Alt hypothesis 2: Fighters with Switch stance win more fights.</span>
@@ -145,3 +149,5 @@ Take the top 10% takedown accuracy fighters and compare them with the top 10%  s
 Compare all the fightes with 4+ age difference.
 #### <span style="color:Blue">Null hypothesis 5: Fighters DO NOT fight, in avg., 4 fights per year.</span>
 #### <span style="color:Blue">Alt hypothesis 5: Fighters fight, in avg., 4 fights per year.</span>
+
+- Determine which combination of martial arts are more likely to win fights. 
