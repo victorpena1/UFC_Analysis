@@ -2,7 +2,7 @@
 
 
 
-<img src="data/ufc.jpg"
+<img src="data/ufc.png"
     style="float: left; margin-right: 10px;" />
 
 # High level overview of the project
