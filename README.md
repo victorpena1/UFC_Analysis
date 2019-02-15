@@ -78,6 +78,15 @@ This is going to be mainly statistical understanding of the overall data set.
 boxplot.png
 <img src="data/boxplot.png"
     style="float: left; margin-right: 10px;" />
+    
+<img src="data/eventcountry.png; data/afterUS.png"
+    style="float: left; margin-right: 10px;" />
+
+<img src="data/afterUS.png"
+    style="float: left; margin-right: 10px;" />
+    
+<img src="data/boxplot.png"
+    style="float: left; margin-right: 10px;" />
 
 
 # Hypothesis Testing
