@@ -100,7 +100,8 @@ boxplot.png
 # Hypothesis Testing
 #### <span style="color:Blue">Ho = the distance between distribution of 90% and the 10% is equal or less than the zero.</span>
 #### <span style="color:Blue">H1 = the distance between distribution of 90% and the 10% is more than zero..</span>
-Take the top 10% reach to height ratio fighters and compare them with the rest 
+Take the top 10% reach to height ratio fighters and compare them with the rest.
+
 `Test Statistic:` Perform a one tail ttest with a significance level of 0.05
 
 <img src="data/windensity.png"
