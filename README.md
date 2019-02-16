@@ -88,8 +88,6 @@ As mentioned before, two collections have been created including multiple fields
 - The UFC has hosted over 450 events in the last 30 years.
 - Almost 2000 fighters have participated in the UFC.
 - Close to 5000 fights so far.
--
-
 - Here is the evolution of attendance in the last 30 years.
 
 <img src="data/boxplot.png"
