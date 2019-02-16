@@ -123,7 +123,7 @@ As mentioned before, two collections have been created including multiple fields
 
 # Hypothesis Testing
 #### <span style="color:Blue">Ho = No winning rate change between fighters with different Reach to Height ratio.</span>
-#### <span style="color:Blue">H1 = Better winning rate for fighters with higher Reach to Height ratio..</span>
+#### <span style="color:Blue">H1 = Better winning rate for fighters with higher Reach to Height ratio.</span>
 Take the top 10% reach to height ratio fighters and compare them with the rest.
 
 `Test Statistic:` Perform a one tail ttest with a significance level of 0.05.
