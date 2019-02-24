@@ -126,7 +126,7 @@ Take the top 10% reach to height ratio fighters and compare them with the rest.
 
 `Test Statistic:` Perform a one tail ttest with a significance level of 0.05.
 
-<img src="data/windensity.png"
+<img src="data/correct_rhr.png"
     style="float: left; margin-right: 10px;" />
 
 - The t-test provided a p-value of `0.04879` allowing us to reget the null hypothesis.
